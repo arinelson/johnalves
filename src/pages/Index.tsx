@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
 import PainPoints from "@/components/PainPoints";
+import Benefits from "@/components/Benefits";
+import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
@@ -7,6 +9,8 @@ const Index = () => {
     <main className="bg-dark text-white">
       <Hero />
       <PainPoints />
+      <Benefits />
+      <Testimonials />
       <ContactForm />
     </main>
   );

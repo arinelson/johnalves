@@ -9,8 +9,8 @@ const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Mensagem enviada!",
-      description: "Em breve entraremos em contato.",
+      title: "Inscrição realizada!",
+      description: "Você será notificado quando houver uma vaga disponível.",
     });
   };
 
@@ -18,7 +18,7 @@ const ContactForm = () => {
     <section id="contact" className="py-20 bg-dark">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
-          PRONTO PARA <span className="text-neon">COMEÇAR</span>?
+          ENTRE NA <span className="text-neon">LISTA DE ESPERA</span>
         </h2>
         <div className="max-w-md mx-auto">
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -59,7 +59,7 @@ const ContactForm = () => {
               type="submit"
               className="w-full bg-transparent border-2 border-neon text-neon hover:bg-neon hover:text-dark transition-all duration-300"
             >
-              ENVIAR MENSAGEM
+              ENTRAR NA LISTA DE ESPERA
             </Button>
           </form>
         </div>
