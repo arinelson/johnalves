@@ -39,6 +39,17 @@ const ContactForm = () => {
               className="bg-dark-purple/50 border-neon/20 text-white placeholder:text-gray-400"
               required
             />
+            <select
+              className="w-full bg-dark-purple/50 border-neon/20 text-white placeholder:text-gray-400 rounded-md h-10 px-3"
+              required
+            >
+              <option value="">Selecione sua necessidade atual</option>
+              <option value="emagrecimento">Emagrecimento</option>
+              <option value="hipertrofia">Hipertrofia Muscular</option>
+              <option value="condicionamento">Condicionamento Físico</option>
+              <option value="reabilitacao">Reabilitação</option>
+              <option value="outro">Outro</option>
+            </select>
             <Textarea
               placeholder="Mensagem"
               className="bg-dark-purple/50 border-neon/20 text-white placeholder:text-gray-400"
