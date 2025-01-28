@@ -13,13 +13,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-20 text-center min-h-screen flex flex-col justify-center">
         <h1 className="mb-6">
           <span className="block text-4xl md:text-6xl font-serif italic text-white mb-2">
-            TRANSFORME
+            TRANSFORMANDO
           </span>
-          <span className="block text-4xl md:text-6xl font-sans font-bold text-neon">
-            SEU CORPO
+          <span className="block text-4xl md:text-6xl font-sans font-bold text-neon animate-glow">
+            MENTE & CORPO
           </span>
-          <span className="block text-3xl md:text-5xl font-sans font-bold text-white mt-2">
-            COM JOHNALVES
+          <span className="block text-3xl md:text-5xl font-serif italic text-white mt-2">
+            EM UMA SÓ <span className="font-sans font-bold text-neon">FORÇA</span>
           </span>
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
