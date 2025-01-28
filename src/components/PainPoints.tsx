@@ -26,14 +26,16 @@ const painPoints = [
 
 const PainPoints = () => {
   return (
-    <section className="py-20 bg-dark-purple">
-      <div className="container mx-auto px-4">
+    <section className="py-20 relative bg-dark-gradient overflow-hidden">
+      <div className="absolute inset-0 bg-grid-pattern bg-[length:30px_30px] opacity-20"></div>
+      <div className="absolute inset-0 bg-radial-glow"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
           IDENTIFICOU ALGUM DESSES <span className="text-neon">PROBLEMAS</span>?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {painPoints.map((point, index) => (
-            <Card key={index} className="bg-dark/50 border border-neon/20 p-6 hover:border-neon transition-all duration-300">
+            <Card key={index} className="bg-dark/50 backdrop-blur-sm border border-neon/20 p-6 hover:border-neon transition-all duration-300">
               <div className="flex flex-col items-center text-center">
                 {point.icon}
                 <h3 className="text-xl font-semibold text-white mt-4 mb-2">

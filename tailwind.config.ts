@@ -78,11 +78,21 @@ export default {
             boxShadow: "0 0 20px #00F0FF, 0 0 25px #00F0FF, 0 0 30px #00F0FF",
           },
         },
+        'grid-flow': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(10px)' }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         glow: "glow 2s ease-in-out infinite",
+        'grid-flow': 'grid-flow 15s ease-in-out infinite',
+      },
+      backgroundImage: {
+        'grid-pattern': "linear-gradient(to right, rgba(0, 240, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 240, 255, 0.1) 1px, transparent 1px)",
+        'radial-glow': 'radial-gradient(circle at center, rgba(0, 240, 255, 0.15) 0%, transparent 70%)',
+        'dark-gradient': 'linear-gradient(to bottom, #1A1F2C 0%, #0A0A0A 100%)',
       },
     },
   },
