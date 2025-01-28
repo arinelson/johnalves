@@ -79,8 +79,15 @@ export default {
           },
         },
         'grid-flow': {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(10px)' }
+          '0%': { 
+            transform: 'translateY(0) perspective(1000px) rotateX(0deg)'
+          },
+          '50%': { 
+            transform: 'translateY(10px) perspective(1000px) rotateX(3deg)'
+          },
+          '100%': { 
+            transform: 'translateY(0) perspective(1000px) rotateX(0deg)'
+          }
         }
       },
       animation: {

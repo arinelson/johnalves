@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen relative overflow-hidden bg-dark-gradient">
-      <div className="absolute inset-0 bg-grid-pattern bg-[length:30px_30px] opacity-30 animate-grid-flow"></div>
+      <div className="absolute inset-0 bg-grid-pattern bg-[length:50px_50px] opacity-30 animate-grid-flow transform-gpu"></div>
       <div className="absolute inset-0 bg-radial-glow"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-dark-purple/50 to-dark/90"></div>
       <div className="container mx-auto px-4 relative z-20 text-center min-h-screen flex flex-col justify-center">
